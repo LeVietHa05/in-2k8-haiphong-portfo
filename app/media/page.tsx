@@ -13,7 +13,7 @@ const data = [
         textPaddingTop: 72,
         textPaddingLeft: 42,
         textWidth: 500,
-        href:"/"
+        href:"/media/headmedia"
     },
     {
         title: "“So Do II: Hy No ai o”",
@@ -26,7 +26,7 @@ const data = [
         textPaddingTop: 48,
         textPaddingLeft: 32,
         textWidth: 469,
-        href:"/"
+        href:"/media/sodo2"
     },
     {
         title: "TEN PLUS 2025 Orientation Camp",
@@ -39,7 +39,7 @@ const data = [
         textPaddingTop: 72,
         textPaddingLeft: 24,
         textWidth: 358,
-        href:"/"
+        href:"/media/tenplus"
     },
     {
         title: "Media Contributor CNN Music Club",
@@ -52,7 +52,7 @@ const data = [
         textPaddingTop: 32,
         textPaddingLeft: 24,
         textWidth: 529,
-        href:"/"
+        href:"/media/musicclub"
     },
 ]
 

@@ -5,10 +5,29 @@ import Image from "next/image"
 import { useRef, useEffect } from "react"
 
 const data = [
-    "/gallery-set-1.png",
-    "/gallery-set-2.png",
-    "/gallery-set-3.png",
-    "/gallery-set-4.png",
+    "/gallery-set-3-1.png",
+    "/gallery-set-3-2.png",
+    "/gallery-set-3-3.png",
+    "/gallery-set-3-4.png",
+    "/gallery-set-3-5.png",
+    "/gallery-set-3-6.png",
+    "/gallery-set-3-7.png",
+    "/gallery-set-3-8.png",
+    "/gallery-set-3-9.png",
+    "/gallery-set-3-10.png",
+    "/gallery-set-3-11.png",
+    "/gallery-set-3-12.png",
+    "/gallery-set-3-13.png",
+    "/gallery-set-3-14.png",
+    "/gallery-set-3-15.png",
+    "/gallery-set-3-16.png",
+    "/gallery-set-3-17.png",
+    "/gallery-set-3-18.png",
+    "/gallery-set-3-19.png",
+    "/gallery-set-3-20.png",
+    "/gallery-set-3-21.png",
+    "/gallery-set-3-22.png",
+    "/gallery-set-3-23.png",
 ]
 
 export default function LangChaiPage() {
