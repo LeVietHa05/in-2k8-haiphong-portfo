@@ -47,10 +47,10 @@ export default function Header() {
                 setCurrentIndex(currentIndex + 1)
             else
                 setCurrentIndex(0)
-        }, 500)
+        }, 250)
         setTimeout(() => {
             setIsRotating(false)
-        }, 1000)
+        }, 500)
     }
     return (
         <div className="w-[1440] mx-auto relative h-230">
@@ -77,7 +77,7 @@ export default function Header() {
             </div>
             <style jsx>{`
                 .rotating {
-                    animation: rotateAroundShutter 1s ease-in-out;
+                    animation: rotateAroundShutter 0.5s ease-in-out;
                     transform-origin: -489px 53px;
                 }
                 @keyframes rotateAroundShutter {
