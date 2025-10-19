@@ -37,8 +37,8 @@ export default function LangChaiPage() {
         <div className="w-[1440] h-[1160px] mx-auto shadow-md/20 relative overflow-hidden">
             {/* nav */}
             <div className="relative z-1 flex justify-between px-20 p-10 text-center font-[Instrument_Serif] text-[38px]">
-                <Link className="border rounded-full w-92" href={'/'} > Home</Link>
-                <div className="border rounded-full w-125" > Lang Theu Dong Chu</div>
+                <Link className="border rounded-full w-92 hover:bg-gray-100" href={'/'} > Home</Link>
+                <Link className="border rounded-full w-125 hover:bg-gray-100" href={'/gallery'}> Lang Theu Dong Chu</Link>
             </div>
             {/* background */}
             <Image src={'/gallery-inner-bg.png'} className="z-0" alt="" fill></Image>

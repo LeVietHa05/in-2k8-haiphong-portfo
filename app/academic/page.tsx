@@ -69,7 +69,7 @@ export default function Academic() {
             <Image src={'/academic-bg.png'} className="z-0" alt="" fill></Image>
             {/* nav */}
             <div className="relative z-1 flex justify-between px-20 p-10 *:w-92 *h-19 text-center font-[Instrument_Serif] text-[38px]">
-                <Link className="border rounded-full" href={'/'} > Home</Link>
+                <Link className="border rounded-full hover:bg-gray-100" href={'/'} > Home</Link>
                 <div className="border rounded-full" > Academics</div>
             </div>
             {data.map((each, i) => {
