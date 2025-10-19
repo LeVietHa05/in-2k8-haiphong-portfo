@@ -11,7 +11,7 @@ const data = [
     "/gallery-set-4.png",
 ]
 
-export default function LangChaiPage() {
+export default function LangLuaPage() {
     const scrollRef = useRef<HTMLDivElement>(null)
 
     const handleWheel = (e: React.WheelEvent) => {
@@ -38,18 +38,18 @@ export default function LangChaiPage() {
             {/* nav */}
             <div className="relative z-1 flex justify-between px-20 p-10 text-center font-[Instrument_Serif] text-[38px]">
                 <Link className="border rounded-full w-92" href={'/'} > Home</Link>
-                <div className="border rounded-full w-125" > Lang Chai Phuoc Hai</div>
+                <div className="border rounded-full w-125" > Lang Lua Van Phuc</div>
             </div>
             {/* background */}
             <Image src={'/gallery-inner-bg.png'} className="z-0" alt="" fill></Image>
             {/* main */}
-            <div className="absolute " style={{ top: 319, left: 131 }}>
+            <div className="absolute " style={{ top: 319, left: 50 }}>
                 <div className="relative z-1">
-                    <Image src={'/gallery-inner-bg-1.png'} alt="" width={263} height={520}></Image>
-                    <Image src={'/scroll.png'} className="ml-20" alt="" width={152} height={58}></Image>
+                    <Image src={'/gallery-inner-bg-3.png'} alt="" width={540} height={576}></Image>
+                    <Image src={'/scroll.png'} className="ml-45 -mt-10" alt="" width={152} height={58}></Image>
                 </div>
                 {/* setimage */}
-                <div ref={scrollRef} onWheel={handleWheel} className="setimage flex  absolute z-0 overflow-x-auto w-[1050px]" style={{ top: 129, left: 255 }}>
+                <div ref={scrollRef} onWheel={handleWheel} className="setimage flex  absolute z-0 overflow-x-auto w-[1020px]" style={{ top: 129, left: 370 }}>
                     {data.map((each, i) => {
                         return (
                             <div className="relative shrink-0" key={i} style={{ width: 305, height: 301 }}>
