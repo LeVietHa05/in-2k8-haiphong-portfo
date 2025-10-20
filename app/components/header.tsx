@@ -72,7 +72,7 @@ export default function Header() {
                     </div>) :
 
                     <div className={isRotating ? 'rotating' : ''}> {Links[currentIndex].text}
-                        < Image src={'/Vector.png'} alt="" width={500} height={40} /></div>
+                        < Image src={'/vector.png'} alt="" width={500} height={40} /></div>
                 }
             </div>
             <style jsx>{`
